@@ -19,9 +19,7 @@ jobs:
 
       - name: Update README with activity
         id: activity
-        uses: Readme-Workflows/github-activity-readme@v1
-        with:
-          MAX_LINES: 5
+        uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
