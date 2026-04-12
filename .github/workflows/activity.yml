@@ -1,0 +1,44 @@
+name: Update README with GitHub Activity
+
+on:
+  schedule:
+    - cron: "0 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Generate yesterday date
+        id: date
+        run: echo "YESTERDAY=$(date -d 'yesterday' +'%Y-%m-%d')" >> $GITHUB_ENV
+
+      - name: Update README with activity
+        id: activity
+        uses: Readme-Workflows/github-activity-readme@v1
+        with:
+          MAX_LINES: 5
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check for changes
+        id: verify
+        run: |
+          if git diff --quiet; then
+            echo "NO_CHANGES=true" >> $GITHUB_ENV
+          else
+            echo "NO_CHANGES=false" >> $GITHUB_ENV
+          fi
+
+      - name: Commit changes (only if needed)
+        if: env.NO_CHANGES == 'false'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add README.md
+          git commit -m "Update README with activity on $YESTERDAY"
+          git push
