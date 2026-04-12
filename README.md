@@ -106,8 +106,9 @@ Scan the QR codes below to access them directly:
 </p>
 
 ## ⚡ Recent GitHub Activity
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<!--RECENT_ACTIVITY:start-->
+
+<!--RECENT_ACTIVITY:last_update-->
 
 ## 👀 Profile Views
 <p align="left">
