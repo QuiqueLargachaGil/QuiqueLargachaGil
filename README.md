@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Enrique</h1>
-<h3 align="center">Senior Full-Stack Developer | Backend · Mobile · CI / CD · Cloud</h3>
+<h3 align="center">Senior Full-Stack .NET Developer | Backend · Mobile · CI / CD · Cloud</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?lines=ASP.NET+Core+%7C+EF+Core;.NET+MAUI+%7C+Avalonia+UI;GitHub+Actions+%7C+Azure+DevOps;Microsoft+Azure&center=true&width=600&height=45">
@@ -14,7 +14,7 @@
 ---
 
 ## 👨‍💻 About me
-I'm a **Senior Full-Stack Developer** with experience building **backend services** and with a strong background in **cross-platform mobile development** using .NET MAUI and Avalonia UI.
+I'm a **Senior Full-Stack .NET Developer** with experience building **backend services** and with a strong background in **cross-platform mobile development** using .NET MAUI and Avalonia UI.
 
 I have a strong interest in software engineering and continuously invest in keeping my skills up to date, staying aligned with modern development practices and technologies.
 
@@ -69,7 +69,7 @@ Scan the QR codes below to access them directly:
   <img src="https://img.shields.io/badge/EF%20Core-512BD4?style=flat"/>
 </p>
 
-## 🚀 Current Focus
+## 🎯 Current Focus
 - 🔭 Building: Mobile + Backend + Azure application <!--**LenderApp** -->
 - 🌱 Learning: Azure certifications: **AZ-204 · AZ-400 · AI-200**
 - ⚙️ Backend, cloud architecture, multi-platform applications and DevOps practices
@@ -91,15 +91,23 @@ Scan the QR codes below to access them directly:
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=QuiqueLargachaGil&repo=MAUI-CleanArchitecture.Template"/>
 </a>-->
 
-[![Repo](https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github)](https://https://github.com/QuiqueLargachaGil/MAUI-CleanArchitecture.Template)
+[![Repo](https://img.shields.io/badge/View%20Repository-GitHub-black?style=for-the-badge&logo=github)](https://github.com/QuiqueLargachaGil/MAUI-CleanArchitecture.Template)
 
 - Structured as a multi-template repository, offering different architectural approaches via branches depending on the application type
 - Designed for scalability and maintainability
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=QuiqueLargachaGil&show_icons=true&hide_border=true&cache_seconds=86400"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=QuiqueLargachaGil&layout=compact&cache_seconds=86400"/>
+  <table align="center">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api?username=QuiqueLargachaGil&show_icons=true&hide_border=true&cache_seconds=86400" height="170"/>
+      </td>
+      <td>
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=QuiqueLargachaGil&layout=compact&hide_border=true&cache_seconds=86400"height="150"/>
+      </td>
+    </tr>
+  </table>
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=QuiqueLargachaGil"/>
