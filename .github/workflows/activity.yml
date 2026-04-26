@@ -22,6 +22,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          MAX_LINES: 5
           COMMIT_MSG: "Update README with recent activity on $YESTERDAY"
           DISABLE_EVENTS: "COMMENTS"
